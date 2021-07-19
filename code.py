@@ -7,7 +7,8 @@ Created on Mon Jul 19 22:08:17 2021
 import pytesseract
 import cv2
 
-orig=r"C:\Users\raja sekhar\Downloads\sms.jpeg"
+#Modify the address to SMS screenshot jpeg file address
+orig=r"C:\Users\..."
 
 # Reading image
 img=cv2.imread(orig)
