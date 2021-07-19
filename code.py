@@ -8,7 +8,7 @@ import pytesseract
 import cv2
 
 #Modify the address to SMS screenshot jpeg file address
-orig=r"C:\Users\..."
+orig=r"C:\Users\...\test.jpeg"
 
 # Reading image
 img=cv2.imread(orig)
