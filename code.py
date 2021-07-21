@@ -19,7 +19,7 @@ output = pytesseract.image_to_string(img)
 # Splitting ocr output into words
 strings=output.split()
 
-# Printing words containing "http"
+#Using Regular expression to extract links
 for word in strings:
-    if "http" in word:
+    if re.search("[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)+",word):
         print(word)
